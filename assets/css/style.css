@@ -1,0 +1,23 @@
+.footer__cliente {
+    bottom: 0%;
+    width: 100%;
+    position: relative;
+    color: green;
+    background-color: #343a40;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer__cliente {
+        position: absolute;
+    }
+}
+img {
+    transition: all;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+img:hover {
+      margin-left: -50px
+}
